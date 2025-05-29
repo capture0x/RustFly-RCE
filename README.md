@@ -1,26 +1,11 @@
-# RustFly-RCE
-RustFly v2.0.0- Remote Code Execution (RCE) 
 # Exploit Title: RustFly v2.0.0 – Remote Code Execution (RCE)
 **Date:** 2025-05-29  
 **Exploit Author:** tmrswrr  
 **Software Link:** [https://bixat.dev/products/rustfly](https://bixat.dev/products/rustfly)  
-**Platform:** Windows / Cross-platform  
+**Platform:** Multiple 
 **Version:** v2.0.0  
 **Tested on:** Windows 10 (build 19045)
 
----
-
-## Affected Component(s)
-
-RustFly v2.0.0's UDP input handling mechanism, which processes remote HID-like input via UDP without proper authentication or input validation.
-
----
-
-## Attack Vector(s)
-
-An attacker on the same network can send crafted UDP packets to the RustFly-controlled endpoint to simulate keyboard input. These packets, if ordered properly, simulate launching CMD or PowerShell and executing a remote reverse shell without any user interaction.
-
----
 
 ## Vulnerability Description
 
