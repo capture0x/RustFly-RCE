@@ -8,8 +8,7 @@
 
 
 ### Vulnerability Description
-
-RustFly v2.0.0 contains a critical vulnerability in its keystroke emulation layer that allows unauthenticated attackers to achieve remote code execution (RCE). The software processes UDP-based keystroke commands directly into the active GUI session without validating their origin or content.
+RustFly v2.0.0 contains a critical vulnerability in its remote input processing layer that allows unauthenticated attackers to achieve remote code execution (RCE). The software accepts UDP-based keystroke and mouse commands—originating from a paired Android device—directly into the active Windows GUI session without any authentication or origin/content validation.
 
 Using this flaw, an attacker can:
 
