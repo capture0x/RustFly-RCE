@@ -1,4 +1,4 @@
-# Exploit Title: RustFly v2.0.0 – Remote Code Execution (RCE)
+### Exploit Title: RustFly v2.0.0 – Remote Code Execution (RCE)
 **Date:** 2025-05-29  
 **Exploit Author:** tmrswrr  
 **Software Link:** [https://bixat.dev/products/rustfly](https://bixat.dev/products/rustfly)  
@@ -7,7 +7,7 @@
 **Tested on:** Windows 10 (build 19045)
 
 
-## Vulnerability Description
+### Vulnerability Description
 
 RustFly v2.0.0 contains a critical vulnerability in its keystroke emulation layer that allows unauthenticated attackers to achieve remote code execution (RCE). The software processes UDP-based keystroke commands directly into the active GUI session without validating their origin or content.
 
