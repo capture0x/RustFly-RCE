@@ -4,7 +4,7 @@
 **Software Link:** [https://bixat.dev/products/rustfly](https://bixat.dev/products/rustfly)  
 **Platform:** Multiple 
 **Version:** v2.0.0  
-**Tested on:** Windows 10 (build 19045)
+**Tested on:** Windows 10
 
 
 ### Vulnerability Description
